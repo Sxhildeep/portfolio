@@ -1,0 +1,14 @@
+.swiss-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+  column-gap: var(--gutter);
+  width: min(100%, var(--max));
+  margin-inline: auto;
+  padding-inline: var(--page-pad);
+}
+
+@media (max-width: 720px) {
+  .swiss-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

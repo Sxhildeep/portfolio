@@ -1,0 +1,12 @@
+.footer {
+  padding-block: var(--space-5);
+  align-content: center;
+}
+
+.footer__top {
+  grid-column: 1 / -1;
+  justify-self: start;
+  font-size: var(--text-md);
+  letter-spacing: var(--tracking-wide);
+  color: var(--color-fg);
+}
