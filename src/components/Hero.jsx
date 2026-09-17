@@ -142,9 +142,11 @@ export function Hero() {
           Work
         </a>
         <a
-          href="#about"
+          href="https://www.linkedin.com/in/sahiil/"
           className="hero__nav-link hero__nav-link--info"
           data-hero-intro
+          target="_blank"
+          rel="noopener noreferrer"
         >
           LinkedIn
         </a>
