@@ -126,9 +126,11 @@ export function Hero() {
 
       <nav className="hero__nav" aria-label="Primary">
         <a
-          href="#about"
+          href="https://github.com/Sxhildeep"
           className="hero__nav-link hero__nav-link--about"
           data-hero-intro
+          target="_blank"
+          rel="noopener noreferrer"
         >
           GitHub
         </a>
@@ -147,9 +149,11 @@ export function Hero() {
           LinkedIn
         </a>
         <a
-          href="#contact"
+          href={`${import.meta.env.BASE_URL}Sahil_Singh_Resume.pdf`}
           className="hero__nav-link hero__nav-link--contact"
           data-hero-intro
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Resume
         </a>
