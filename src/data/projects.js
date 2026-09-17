@@ -20,7 +20,7 @@ export const projects = [
     index: "003",
     title: "Relay",
     summary:
-      "Realtime chat with Socket.IO on the wire and RabbitMQ as the broker. Messages persist, scale, and stay in order.",
+      "A Full-Stack Chatting App with Socket.IO for live messaging and RabbitMQ as the message broker. Messages persist, scale, and stay in order.",
     repo: "https://github.com/Sxhildeep/LetsChat",
   },
 ];
