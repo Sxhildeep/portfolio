@@ -172,7 +172,7 @@ export function Hero() {
       />
 
       <p className="hero__copy" data-hero-intro>
-        Heyo, I&apos;m <span className="hero__copy-name">Sahil</span>. A Design Engineer, creating nice looking UIs and smooth and scalable backend systems.
+        Heyo, I&apos;m <span className="hero__copy-name">Sahil</span>. A Full-Stack Engineer, creating nice looking UIs and smooth and scalable backend systems.
       </p>
       <p className="hero__location" data-hero-intro>
         Based in Adelaide, South Australia.

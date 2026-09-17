@@ -6,8 +6,10 @@ export function About() {
       <h2 className="about__title">About Me</h2>
       <div className="about__description-container">
         <p className="about__description">
-          Wanted to be a designer, artist and engineer. I use code as my empty
-          canvas to create and explore my ideas and imagination.
+          Always being curious and wanting to build new things, I use code as a medium to create and explore my ideas and imagination.
+        </p>
+        <p className="about__description">
+          Creating Web Apps that not only look good but are also scalable and efficient.
         </p>
       </div>
     </section>

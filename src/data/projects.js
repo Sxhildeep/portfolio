@@ -4,16 +4,16 @@ export const projects = [
     index: "001",
     title: "Meet ASL",
     summary:
-      "Sign language overlay for Google Meet. Camera in, ASL recognition on the call, captions for everyone else.",
+      "Sign language overlay for Google Meet. Camera in, ASL recognition on the call. No external software required everything runs in the extension.",
     repo: "https://github.com/Sxhildeep/Meet-Sign-Language-Extension",
   },
   {
-    id: "highlight-ai",
+    id: "portfolio",
     index: "002",
-    title: "Highlight AI",
+    title: "Portfolio",
     summary:
-      "Select text on any page, get a concise assistant in the margin. Explain, rewrite, or ask — without leaving the tab.",
-    repo: "",
+      "This site. A grid focused and swiss design inspired portfolio. Showcases my projects and skills.",
+    repo: "https://github.com/Sxhildeep/portfolio",
   },
   {
     id: "relay",
