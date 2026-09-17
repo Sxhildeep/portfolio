@@ -172,9 +172,7 @@ export function Hero() {
       />
 
       <p className="hero__copy" data-hero-intro>
-        Heyo, <span className="hero__copy-name">I&apos;m Sahil</span>. A
-        Fullstack Developer and Designer crafting digital experiences from nice
-        looking UIs to smooth and scalable backend systems.
+        Heyo, I&apos;m <span className="hero__copy-name">Sahil</span>. A Design Engineer, creating nice looking UIs and smooth and scalable backend systems.
       </p>
       <p className="hero__location" data-hero-intro>
         Based in Adelaide, South Australia.

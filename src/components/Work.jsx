@@ -12,16 +12,17 @@ export function Work() {
             <span className="work__index">({project.index})</span>
             <h3 className="work__name">{project.title}</h3>
             <p className="work__summary">{project.summary}</p>
-            <div className="work__links">
-              <a href={project.href}>Demo</a>
-              <a
-                href={project.repo}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Code
-              </a>
-            </div>
+            {project.repo ? (
+              <div className="work__links">
+                <a
+                  href={project.repo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Code
+                </a>
+              </div>
+            ) : null}
           </li>
         ))}
       </ul>

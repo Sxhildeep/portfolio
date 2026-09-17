@@ -57,6 +57,7 @@
   grid-column: 7 / 10;
   margin: 0;
   font-size: var(--text-md);
+  font-weight: var(--weight-display);
   line-height: var(--leading-body);
   color: var(--color-fg);
   max-width: 42ch;

@@ -6,9 +6,9 @@ export function Hobby() {
     <section id="hobby" className="hobby swiss-grid">
       <p className="hobby__word hobby__word--1">And</p>
       <p className="hobby__word hobby__word--2">I take </p>
-      <p className="hobby__word hobby__word--3">A bit</p>
-      <p className="hobby__word hobby__word--4">Of</p>
-      <p className="hobby__word hobby__word--5">Photos Too </p>
+      <p className="hobby__word hobby__word--3">A bit of</p>
+   
+      <p className="hobby__word hobby__word--5">Photos</p>
 
       {/* Same 12-col + gutter math as overlay — not nested .swiss-grid */}
       <div className="hobby__gallery">

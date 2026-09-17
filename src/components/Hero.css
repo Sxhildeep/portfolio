@@ -2,7 +2,7 @@
   position: relative;
   min-height: 100svh;
   height: 100svh;
-  padding-block: var(--page-pad);
+  padding-block: 1rem;
   grid-template-rows: auto auto 1fr auto;
   align-content: stretch;
   row-gap: 0;
@@ -33,7 +33,7 @@
   border: 0;
   background: none;
   font: inherit;
-  font-size: var(--text-md);
+  font-size: var(--text-sm);
   font-weight: var(--weight-body);
   letter-spacing: var(--tracking-wide);
   text-transform: none;
@@ -82,23 +82,26 @@
 
 /* Row 3 — indented mid copy */
 .hero__copy {
-  grid-column: 7 / 10;
+  grid-column: 7 / 11;
   grid-row: 3;
   align-self: end;
   max-width: 36ch;
   margin-bottom: 6rem;
   font-size: var(--text-lg);
+  font-weight: var(--weight-display);
   line-height: var(--leading-body);
   color: var(--color-fg);
 }
 .hero__copy-name {
   font-weight: var(--weight-display);
-  color: var(--color-fg);
+  color: inherit;
 }
 .hero__location {
   margin: 0;
   padding: 0;
   font-size: var(--text-lg);
+  font-weight: var(--weight-display);
+  color: var(--color-fg);
   grid-column: 1 / 5;
   grid-row: 3;
   margin-top: var(--space-2);

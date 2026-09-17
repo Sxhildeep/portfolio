@@ -7,7 +7,7 @@ export function Stack() {
       <h2 className="stack__title">Stack</h2>
       <p className="stack__description">
         Tools I reach for when building browser products, realtime systems, and
-        interfaces that stay out of the way.
+        interfaces.
       </p>
 
       <ul className="stack__list">
